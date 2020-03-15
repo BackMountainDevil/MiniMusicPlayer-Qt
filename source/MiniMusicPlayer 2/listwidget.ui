@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListWidget</class>
+ <widget class="QMainWindow" name="ListWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>243</width>
+    <height>337</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>播放列表</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <attribute name="title">
+        <string>默认歌单</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QListWidget" name="listWidget"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <attribute name="title">
+        <string>说明</string>
+       </attribute>
+       <widget class="QPlainTextEdit" name="plainTextEdit">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>191</width>
+          <height>281</height>
+         </rect>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+        <property name="plainText">
+         <string>介绍：
+一款简易的绿色音乐播放器，无需安装，用完即走，不留痕迹。
+使用说明：
+从左至右三个按纽分别为 选择文件、播放/暂停、查看/隐藏歌单，将鼠标停留在按钮上会显示提示。
+1.添加音乐文件：点击选择文件按钮进行单个或多个选择即可，也可以直接拖放文件到软件窗口中自动识别添加文件，添加完成后会自动循环播放刚才添加的音乐；
+2.调节音量：将鼠标停留在播放器界面时，滚动鼠标滚轮即可调节音量，默认70%的音量。
+3.暂停播放：点击暂停按钮可以暂停播放，再次点击可恢复播放
+4.点击歌单按钮可以查看播放列表
+5.退出：点击右上角关闭按钮（“ X ”）
+
+使用过程中有任何问题或建议请发邮件到我下方的邮箱，说不定下次更新你就上榜了哟。
+Contact with E-mail:
+kearneyback@gmail.com</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
