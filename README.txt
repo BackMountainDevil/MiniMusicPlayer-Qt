@@ -9,10 +9,11 @@
 5.退出：点击右上角关闭按钮（“ X ”）
 
 资源
-工程文件源码在source文件夹，可以下载用Qt打开编辑
-安装包在release文件夹，采用windeployqt+Enigma Virtual Box 发布
-V2.0 25.5M不能上传到Github，资源链接
+工程文件源码在source文件夹
+正式版本采用windeployqt+Enigma Virtual Box 发布，绿色无残留
+V2.0 
 https://www.jianguoyun.com/p/DSzZOZUQkLOaCBjh-_QC (访问密码：ybiV0Y)
+V3.0 https://www.jianguoyun.com/p/DdQkTEcQkLOaCBiTmoQD (访问密码：mC9qVq)
 
 开发环境
 Qt Creator 4.11.1 + Qt 5.14.1 (MSVC 2017, 32 bit)
@@ -38,13 +39,17 @@ V2.0已攻克bug
 从从暂停的位置恢复播放而不是从头播放
 再次添加文件会从头播放修正为继续当前的播放
 V3.0新增需求文档
+按钮切歌上下首
+增加单曲循环、列表循环、随机播放、顺序播放
+播放、音量进度条及进度条控制
+播放过程拖动不会有PotPlayer的杂音
+歌单实体化及通过歌单切歌
+界面美化
+V4.0
+歌词
 添加到系统托盘图标，有关闭后最小化到系统托盘的选项
-重置播放器功能（情况列表和歌单）
-增加通过歌单切歌和按钮切歌
-增加单曲循环、列表循环、随机播放
-播放进度条
-歌单窗口大小跟随
-文件名识别更准确
+歌曲作家歌名无法识别的bug
+增加Ffmpeg解码实现多文件格式
 
 
 协议
