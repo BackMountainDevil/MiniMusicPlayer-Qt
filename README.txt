@@ -11,16 +11,15 @@
 资源
 工程文件源码在source文件夹
 正式版本采用windeployqt+Enigma Virtual Box 发布，绿色无残留
-V2.0 
-https://www.jianguoyun.com/p/DSzZOZUQkLOaCBjh-_QC (访问密码：ybiV0Y)
-V3.0 https://www.jianguoyun.com/p/DdQkTEcQkLOaCBiTmoQD (访问密码：mC9qVq)
+V3.0
+https://www.jianguoyun.com/p/DfRbXFYQkLOaCBi9nK4D
 
 开发环境
 Qt Creator 4.11.1 + Qt 5.14.1 (MSVC 2017, 32 bit)
 
 状态
 2020.3.14 V1.0 完成
-若图片加载失败，可访问我的博客查看：
+若图片加载失败，可访问查看：
 https://zhuanlan.zhihu.com/p/113188097
 2020.3.16 V2.0 完成
 V1.0新增需求文档
